@@ -6,6 +6,8 @@
     <iconPath>Xenotypes/BS_Spider</iconPath>
     <inheritable>true</inheritable>
     <combatPowerFactor>1</combatPowerFactor>
+		<nameMaker>BS_Bug_NamerMale</nameMaker>
+		<nameMakerFemale>BS_Bug_NamerFem</nameMakerFemale>
     <genes>
 			<li>TotalHealing</li>
 			<li>BS_NaturalArmor</li>
@@ -35,6 +37,7 @@
 			<li>AptitudeTerrible_Animals</li>
 			<li>AptitudeStrong_Crafting</li>
 			<li>BS_SpiderBody_Synthread</li>
+			<li MayRequire="vanillaracesexpanded.insector">VRE_InsectFlesh</li>
 		</genes>
   </XenotypeDef>
 
@@ -44,6 +47,8 @@
     <description>Devilspiders produce silk comparable to devilstrand. They are believed to be bioengineered on an Urbworld by a corporation displaying the rare trait of relative sanity by making effort not make sure their spider are not impulsively murderous.</description>
     <iconPath>Xenotypes/BS_Spider</iconPath>
     <inheritable>true</inheritable>
+		<nameMaker>BS_Bug_NamerMale_PlusCreepy</nameMaker>
+		<nameMakerFemale>BS_Bug_NamerFem_PlusCreepy</nameMakerFemale>
     <combatPowerFactor>1</combatPowerFactor>
     <genes>
 			<li>ArchiteMetabolism</li>
@@ -67,6 +72,7 @@
 			<li>AptitudeRemarkable_Crafting</li>
 			<li>ChemicalDependency_Psychite</li>
 			<li>BS_SpiderBody_Devil</li>
+			<li MayRequire="vanillaracesexpanded.insector">VRE_InsectFlesh</li>
 		</genes>
   </XenotypeDef>
 
@@ -141,6 +147,59 @@
 			<li>BS_GeneEater</li>
 			<li>BS_DisintegrateXenoGenes</li>
 			<!-- <li>VU_Hermaphromorph</li> -->
+		</genes>
+  </XenotypeDef>
+
+	<XenotypeDef>
+    <defName>BS_Broodmother</defName>
+    <label>broodmother</label>
+    <description>A failed genetic experiment. The intent was for the creature to be used to breed more lucrative creatures without passing on its own genes, but an error in the design resulted in many of the creature's own genes still being passed on.\n\nBroodmothers never stop growing and will grow until their bones and organs can no longer support them.</description>
+    <iconPath>Xenotypes/BS_Freak</iconPath>
+    <inheritable>true</inheritable>
+    <combatPowerFactor>1</combatPowerFactor>
+    <genes>
+			<li>TotalHealing</li>
+			<li>BS_Arching_Horns_skin</li>
+			<li>BS_CannotWearArmor</li>
+			<li>BS_EndlessGrowth</li>
+			<li>LoS_Snake_Tail</li>
+			<li>BS_StickyAcidSpray</li>
+			<li MayRequire="RedMattis.LamiasAndOtherSnakes">BS_SnekEngulf</li>
+			<li>Immunity_SuperStrong</li>
+			<li>WoundHealing_Slow</li>
+			<li>BS_SlowBleeding</li>
+			<li>PsychicAbility_Extreme</li>
+			<li>BS_Very_Slow</li>
+			<li>Mood_Sanguine</li>
+			<li>MinTemp_LargeDecrease</li>
+			<li>ToxResist_Partial</li>
+			<li>MeleeDamage_Weak</li>
+			<li>VerySleepy</li>
+			<li>BS_AcidResistanceMid</li>
+			<li>Robust</li>
+			<li>Pain_Reduced</li>
+			<li>Body_FemaleOnly</li>
+			<li>BS_EverFertile</li>
+			<li>BS_BirthLitter</li>
+			<li>Libido_Low</li>
+			<li>BS_ShortPregnancy</li>
+			<li>DarkVision</li>
+			<li>BS_VeryEarlyMaturity</li>
+			<li>Fertile</li>
+			<li MayRequire="redmattis.bettergeneinheritance">BGI_SecondaryGenes</li>
+			<li>Beauty_VeryUgly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>BS_DragonHead</li>
+			<li>Body_Standard</li>
+			<li>Body_Fat</li>
+			<li>BS_CreamSkin</li>
+			<li>VU_DarkPallorSkin</li>
+			<li>VU_NosferatuSkin</li>
+			<li>BS_FastAging</li>
+			<li>Nearsighted</li>
+			<li>Instability_Major</li>
+			<li>AptitudePoor_Shooting</li>
+			<li>AptitudePoor_Animals</li>
 		</genes>
   </XenotypeDef>
 
