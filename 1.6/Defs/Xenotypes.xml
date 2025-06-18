@@ -1,0 +1,209 @@
+<Defs>
+  <XenotypeDef>
+    <defName>BS_Weaver</defName>
+    <label>weaver</label>
+    <description>Despite the innocent-sounding name the weavers are vicious and unlike what you'd expect from a web-making spider they are more known for running down their victims or pouncing on them from above. While they are infamously murderous they are despite rumors not actually any no more cannibalistic than baseline humans. They also produce a large amount of silk that is of a quality comparable to Synthread.</description>
+    <iconPath>Xenotypes/BS_Spider</iconPath>
+    <inheritable>true</inheritable>
+    <combatPowerFactor>1</combatPowerFactor>
+		<nameMaker>BS_Bug_NamerMale</nameMaker>
+		<nameMakerFemale>BS_Bug_NamerFem</nameMakerFemale>
+    <genes>
+			<li>TotalHealing</li>
+			<li>BS_NaturalArmor</li>
+			<li>VU_Pounce</li>
+			<li>Immunity_Weak</li>
+			<li>WoundHealing_Fast</li>
+			<li>MoveSpeed_VeryQuick</li>
+			<li>Mood_Depressive</li>
+			<li>MinTemp_SmallIncrease</li>
+			<li>ToxResist_Partial</li>
+			<li>UVSensitivity_Mild</li>
+			<li>FireWeakness</li>
+			<li>Aggression_HyperAggressive</li>
+			<li>BS_Bloodlust</li>
+			<li>MeleeDamage_Strong</li>
+			<li>KillThirst</li>
+			<li>BS_NightOwl</li>
+			<li>LowSleep</li>
+			<li>Delicate</li>
+			<li>StrongStomach</li>
+			<li>RobustDigestion</li>
+			<li>DarkVision</li>
+			<li>Instability_Major</li>
+			<li>ElongatedFingers</li>
+			<li>AptitudeStrong_Melee</li>
+			<li>AptitudePoor_Plants</li>
+			<li>AptitudeTerrible_Animals</li>
+			<li>AptitudeStrong_Crafting</li>
+			<li>BS_SpiderBody_Synthread</li>
+			<li MayRequire="vanillaracesexpanded.insector">VRE_InsectFlesh</li>
+		</genes>
+  </XenotypeDef>
+
+  <XenotypeDef>
+    <defName>BS_Devilspider</defName>
+    <label>devilspider</label>
+    <description>Devilspiders produce silk comparable to devilstrand. They are believed to be bioengineered on an Urbworld by a corporation displaying the rare trait of relative sanity by making effort not make sure their spider are not impulsively murderous.</description>
+    <iconPath>Xenotypes/BS_Spider</iconPath>
+    <inheritable>true</inheritable>
+		<nameMaker>BS_Bug_NamerMale_PlusCreepy</nameMaker>
+		<nameMakerFemale>BS_Bug_NamerFem_PlusCreepy</nameMakerFemale>
+    <combatPowerFactor>1</combatPowerFactor>
+    <genes>
+			<li>ArchiteMetabolism</li>
+			<li>BS_NaturalArmor_Great</li>
+			<li>BS_Diet_Carnivore</li>
+			<li>MoveSpeed_Quick</li>
+			<li>MinTemp_SmallIncrease</li>
+			<li>MaxTemp_LargeIncrease</li>
+			<li>FireImmunity</li>
+			<li>Aggression_DeadCalm</li>
+			<li>MeleeDamage_Strong</li>
+			<li>Delicate</li>
+			<li>BS_Ears_PointedHD</li>
+			<li>BS_BloodHair</li>
+			<li>Skin_DeepRed</li>
+			<li>DarkVision</li>
+			<li>Instability_Major</li>
+			<li>AptitudePoor_Mining</li>
+			<li>AptitudeStrong_Cooking</li>
+			<li>AptitudePoor_Animals</li>
+			<li>AptitudeRemarkable_Crafting</li>
+			<li>ChemicalDependency_Psychite</li>
+			<li>BS_SpiderBody_Devil</li>
+			<li MayRequire="vanillaracesexpanded.insector">VRE_InsectFlesh</li>
+		</genes>
+  </XenotypeDef>
+
+	<XenotypeDef>
+    <defName>BS_Mimic</defName>
+    <label>mimic</label>
+    <description>The popular theory is that most of reports of mimics are from a variety of escaped xenohumans experiments. Their abilities make them naturally capable infiltrators.</description>
+    <iconPath>Xenotypes/BS_Mimic</iconPath>
+    <inheritable>true</inheritable>
+    <combatPowerFactor>1</combatPowerFactor>
+    <genes>
+			<li>ArchiteMetabolism</li>
+			<li>BS_Mimic</li>
+			<li>BS_Fast_TotalHealing</li>
+			<li>BS_SelfRepairingApparel</li>
+			<li>Cannibal</li>
+			<li>Immunity_SuperStrong</li>
+			<li>WoundHealing_SuperFast</li>
+			<li>Mood_Depressive</li>
+			<li>BS_Bloodlust</li>
+			<li>BS_Unpretentious</li>
+			<li>Pain_Reduced</li>
+			<li>BS_MimicBody</li>
+			<li>BS_VeryLightOrange</li>
+			<li>Instability_Major</li>
+			<li>ElongatedFingers</li>
+			<li>BS_FeedingFrenzy</li>
+			<li>BS_IntegrateGenes</li>
+		</genes>
+  </XenotypeDef>
+
+	<XenotypeDef>
+    <defName>BS_Abomination</defName>
+    <label>abomination</label>
+    <description>Most creatures of this type are believed to be escaped experiments from an unethical gene lab.</description>
+    <iconPath>Xenotypes/BS_Freak</iconPath>
+    <inheritable>true</inheritable>
+    <combatPowerFactor>1</combatPowerFactor>
+    <genes>
+			<li>BS_IntegrateGenes</li>
+			<li>TotalHealing</li>
+			<li>OgreFrame</li>
+			<li>BS_StickyAcidSpray</li>
+			<li>Immunity_SuperStrong</li>
+			<li>MoveSpeed_Slow</li>
+			<li>Mood_Pessimist</li>
+			<li>MinTemp_LargeDecrease</li>
+			<li>BS_ShortPregnancy</li>
+			<li>BS_EverFertile</li>
+			<li>Aggression_Aggressive</li>
+			<li>Delicate</li>
+			<li>Fertile</li>
+			<li>BS_Ears_PointedHD</li>
+			<li>Beauty_VeryUgly</li>
+			<li>Body_Standard</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>VU_DarkPallorSkin</li>
+			<li>Nearsighted</li>
+			<li>BS_Diet_Carnivore</li>
+			<li>AptitudePoor_Crafting</li>
+			<li>AptitudePoor_Shooting</li>
+			<li>AptitudePoor_Medicine</li>
+			<li>LoS_MarlithBody</li>
+			<li>BS_AcidResistanceTotal</li>
+			<li>BS_CellPandemonium</li>
+			<li>VerySleepy</li>
+			<li>AptitudePoor_Animals</li>
+			<li MayRequire="ludeon.rimworld.anomaly">BS_CreepyHaired</li>
+			<li MayRequire="ludeon.rimworld.anomaly">BS_GhoulHead</li>
+			<!-- <li>FacialRidges</li> -->
+			<li>LoS_VenomTalons</li>
+			<li>BS_GeneEater</li>
+			<li>BS_DisintegrateXenoGenes</li>
+			<!-- <li>VU_Hermaphromorph</li> -->
+		</genes>
+  </XenotypeDef>
+
+	<XenotypeDef>
+    <defName>BS_Broodmother</defName>
+    <label>broodmother</label>
+    <description>A failed genetic experiment. The intent was for the creature to be used to breed more lucrative creatures without passing on its own genes, but an error in the design resulted in many of the creature's own genes still being passed on.\n\nBroodmothers never stop growing and will grow until their bones and organs can no longer support them.</description>
+    <iconPath>Xenotypes/BS_Freak</iconPath>
+    <inheritable>true</inheritable>
+    <combatPowerFactor>1</combatPowerFactor>
+    <genes>
+			<li>TotalHealing</li>
+			<li>BS_Arching_Horns_skin</li>
+			<li>BS_CannotWearArmor</li>
+			<li>BS_EndlessGrowth</li>
+			<li>LoS_Snake_Tail</li>
+			<li>BS_StickyAcidSpray</li>
+			<li MayRequire="RedMattis.LamiasAndOtherSnakes">BS_SnekEngulf</li>
+			<li>Immunity_SuperStrong</li>
+			<li>WoundHealing_Slow</li>
+			<li>BS_SlowBleeding</li>
+			<li>PsychicAbility_Extreme</li>
+			<li>BS_Very_Slow</li>
+			<li>Mood_Sanguine</li>
+			<li>MinTemp_LargeDecrease</li>
+			<li>ToxResist_Partial</li>
+			<li>MeleeDamage_Weak</li>
+			<li>VerySleepy</li>
+			<li>BS_AcidResistanceMid</li>
+			<li>Robust</li>
+			<li>Pain_Reduced</li>
+			<li>Body_FemaleOnly</li>
+			<li>BS_EverFertile</li>
+			<li>BS_BirthLitter</li>
+			<li>Libido_Low</li>
+			<li>BS_ShortPregnancy</li>
+			<li>DarkVision</li>
+			<li>BS_VeryEarlyMaturity</li>
+			<li>Fertile</li>
+			<li MayRequire="redmattis.bettergeneinheritance">BGI_SecondaryGenes</li>
+			<li>Beauty_VeryUgly</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>BS_DragonHead</li>
+			<li>BS_DragonEars</li>
+			<li>BS_DragonHorns</li>
+			<li>Body_Standard</li>
+			<li>Body_Fat</li>
+			<li>BS_CreamSkin</li>
+			<li>VU_DarkPallorSkin</li>
+			<li>VU_NosferatuSkin</li>
+			<li>BS_FastAging</li>
+			<li>Nearsighted</li>
+			<li>Instability_Major</li>
+			<li>AptitudePoor_Shooting</li>
+			<li>AptitudePoor_Animals</li>
+		</genes>
+  </XenotypeDef>
+
+	
+</Defs>

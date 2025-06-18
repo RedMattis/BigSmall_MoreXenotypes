@@ -1,0 +1,63 @@
+<Defs>
+  <XenotypeDef>
+    <defName>BS_HiveQueen</defName>
+    <label>Hive Queen</label>
+    <description>A genetically modified "hive queen" based on previous research of hivelings. In a stroke of irony it compatible with most xenohumans, but it actually not cross-fertile with hivelings. Unlike Hivelings these creatures were created via genetic modifications rather than xenogerms.</description>
+    <iconPath>UI/Icons/Xenotypes/AG_Hiveling</iconPath>
+    <inheritable>true</inheritable>
+    <combatPowerFactor>1</combatPowerFactor>
+    <genes>
+			<li>BS_CannotWearArmor</li>
+			<li>BS_NaturalArmor</li>
+			<li>Gigantism</li>
+			<li>BS_EndlessGrowth</li>
+			<li>AG_InsectRally</li>
+			<li>AG_Spinnerets</li>
+			<li>BS_StickyAcidSpray</li>
+			<li>AG_Female</li>
+			<li>AG_InsectBlood</li>
+			<li>AG_InsectJellyProduction</li>
+			<li>AG_VFEI_VatGrownInsectoidSkin</li>
+			<li>AG_VFEI_InsectoidSkin</li>
+			<li>AG_VFEI_PheromoneSecretor</li>
+			<li>AG_VFEI_SynapticCerebellum</li>
+			<li>AlphaGenes_AnimalSumMinor_Spelopede</li>
+			<li>AG_SurvivalInstinct_Low</li>
+			<li>Immunity_Strong</li>
+			<li>BS_SlowBleeding</li>
+			<li>PsychicAbility_Enhanced</li>
+			<li>BS_Very_Slow</li>
+			<li>Mood_Sanguine</li>
+			<li>ToxicEnvironmentResistance_Total</li>
+			<li>FireWeakness</li>
+			<li>FireTerror</li>
+			<li>MeleeDamage_Weak</li>
+			<li>Sleepy</li>
+			<li>Delicate</li>
+			<li>Pain_Reduced</li>
+			<li>BS_ShortPregnancy</li>
+			<li>BS_EverFertile</li>
+			<li>BS_BirthLitter</li>
+			<li>BS_VeryEarlyMaturity</li>
+			<li MayRequire="redmattis.bettergeneinheritance">BGI_BinaryInheritance</li>
+			<li MayRequire="redmattis.bettergeneinheritance">BGI_RecessiveGenes</li>
+			<li>AG_UnsettlingAppearance</li>
+			<li>AG_HivelingVoice</li>
+			<li>AG_BeetleMandibles</li>
+			<li>AG_FormicAntennas</li>
+			<li>Body_Standard</li>
+			<li>Body_Fat</li>
+			<li>Skin_PaleYellow</li>
+			<li>BS_FastAging</li>
+			<li>Nearsighted</li>
+			<li>Instability_Mild</li>
+			<li>PollutionRush</li>
+			<li>AptitudePoor_Shooting</li>
+			<li>AptitudeRemarkable_Animals</li>
+			<li>AptitudeTerrible_Crafting</li>
+			<li>AptitudeTerrible_Artistic</li>
+			<li>AptitudeTerrible_Social</li>
+			<li>AptitudeStrong_Intellectual</li>
+		</genes>
+  </XenotypeDef>
+</Defs>

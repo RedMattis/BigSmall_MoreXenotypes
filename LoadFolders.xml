@@ -8,4 +8,9 @@
     <li>1.5/</li>
     <li IfModActive="sarg.alphagenes">1.5/Mods/AlphaSarg</li>
   </v1.5>
+  <v1.6>
+    <li>/</li>
+    <li>1.6/</li>
+    <li IfModActive="sarg.alphagenes">1.6/Mods/AlphaSarg</li>
+  </v1.6>
 </loadFolders>
