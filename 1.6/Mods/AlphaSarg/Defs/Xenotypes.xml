@@ -11,7 +11,7 @@
 			<li>BS_NaturalArmor</li>
 			<li>Gigantism</li>
 			<li>BS_EndlessGrowth</li>
-			<li>AG_InsectRally</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">AG_InsectRally</li>
 			<li>AG_Spinnerets</li>
 			<li>BS_StickyAcidSpray</li>
 			<li>AG_Female</li>

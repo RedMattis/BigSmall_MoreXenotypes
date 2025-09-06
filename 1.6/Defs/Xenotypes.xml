@@ -205,5 +205,53 @@
 		</genes>
   </XenotypeDef>
 
+  <XenotypeDef>
+    <defName>BS_Parasite</defName>
+    <label>parasite</label>
+    <description>A parasitic life-form specialized in secretly manipulating a sentient host.</description>
+    <iconPath>Xenotypes/BS_Parasite</iconPath>
+    <inheritable>true</inheritable>
+    <combatPowerFactor>1</combatPowerFactor>
+    <genes>
+      <li>BS_Fast_TotalHealing</li>
+			<li>BS_SmallFrame</li>
+			<li>BS_CannotWearClothingOrArmor</li>
+			<li>BS_ToughSkin</li>
+			<li>BS_Parasite</li>
+			<li>LoS_VenomTalons</li>
+			<li>Immunity_Weak</li>
+			<li>BS_MoveSpeed_UltraQuick</li>
+			<li>Mood_Pessimist</li>
+			<li>MinTemp_SmallIncrease</li>
+			<li>UVSensitivity_Intense</li>
+			<li>FireWeakness</li>
+			<li>BS_NoEquip</li>
+			<li>BS_Unarmed_VeryStrong</li>
+			<li>BS_Bloodlust</li>
+			<li>BS_NightOwl</li>
+			<li>LowSleep</li>
+			<li>BS_TinyTough</li>
+			<li>BS_AcidResistanceMid</li>
+			<li>BS_Concussive_Resistance</li>
+			<li>BS_AlienApperanceStandards</li>
+			<li>BS_DragonEars</li>
+			<li>Body_Standard</li>
+			<li>BS_BurgundyHair</li>
+			<li>BS_DeepVioletSkin</li>
+			<li>BS_FurryBody</li>
+			<li>BS_PerfectMemory</li>
+			<li>Learning_Fast</li>
+			<li>DarkVision</li>
+			<li>ElongatedFingers</li>
+			<li>AptitudeTerrible_Shooting</li>
+			<li>AptitudePoor_Construction</li>
+			<li>AptitudePoor_Mining</li>
+			<li>AptitudeTerrible_Animals</li>
+			<li>AptitudeRemarkable_Crafting</li>
+			<li>AptitudeRemarkable_Medicine</li>
+			<li>BS_SpiderBody</li>
+		</genes>
+  </XenotypeDef>
+
 	
 </Defs>
